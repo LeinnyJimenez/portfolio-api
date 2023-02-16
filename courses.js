@@ -1,9 +1,3 @@
-// teachers
-const nicolas = require('./images/teachers/nicolas-shurmann')
-
-// // certificades
-// import nicolasCertificade from './images/certificades/nicolas-certificade.jpg'
-
 const courses = [
     {
         id: 1,
