@@ -6,6 +6,10 @@ const app = express();
 
 app.use(express.json());
 
+app.get(',', (req, res) => {
+    res.send('welcome to my portfolio api')
+})
+
 app.get("/portfolio/courses", (req, res) => {
     res.send(courses)
 });
