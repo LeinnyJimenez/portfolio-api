@@ -28,8 +28,8 @@ app.get("/portfolio", (req, res) => {
     res.send(courses)
 });
 
-console.log(courses);
-const PORT = process.env.port || 5000
+// console.log(courses);
+const PORT = process.env.port || '5001'
 
 app.listen(PORT, () => console.log(`listening on ${PORT}`))
 
